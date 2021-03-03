@@ -1,414 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="css/main.css">
-        <title>Calendar</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Calendar</title>
+</head>
 
-    <body>
-        <div class="calendar__wrapper">
-            <div class="backButton">
-                <img src="img/backButton.svg" class="backButton__icon"/>
-                <a href="#" class="backButton__sectionName">
-                    Обучение
-                </a>
+<body>
+<div class="calendar__wrapper">
+    <div class="backButton">
+        <img src="img/backButton.svg" class="backButton__icon"/>
+        <a href="#" class="backButton__sectionName">
+            Обучение
+        </a>
+    </div>
+    <div class="calendar">
+        <div class="calendar__month">
+            <div class="calendar__title">
+                Октябрь, 2019
             </div>
-            <div class="calendar">
-                <div class="calendar__month">
-                    <div class="calendar__title">
-                        Октябрь, 2019
-                    </div>
-                    <table class="calendar__table">
-                        <tbody class="calendar__tbody">
-                            <tr class="calendar__week calendar__week_title">
-                                <td class="calendar__day calendar__day_title">пн</td>
-                                <td class="calendar__day calendar__day_title">вт</td>
-                                <td class="calendar__day calendar__day_title">ср</td>
-                                <td class="calendar__day calendar__day_title">чт</td>
-                                <td class="calendar__day calendar__day_title">пт</td>
-                                <td class="calendar__day calendar__day_title">сб</td>
-                                <td class="calendar__day calendar__day_title">вс</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
-                                <td class="calendar__day calendar__day_past">2</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past">3</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
-                                <td class="calendar__day calendar__day_past">5</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
-                                <td class="calendar__day calendar__day_past">7</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
-                                <td class="calendar__day calendar__day_past">9</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
-                                <td class="calendar__day calendar__day_past">11</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
-                                <td class="calendar__day calendar__day_past">13</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
-                                <td class="calendar__day calendar__day_past">15</td>
-                                <td class="calendar__day calendar__day_past">16</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
-                                <td class="calendar__day calendar__day_past">18</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
-                                <td class="calendar__day calendar__day_past">20</td>
-                                <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
-                                <td class="calendar__day calendar__day_future">22</td>
-                                <td class="calendar__day calendar__day_future">23</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_future">24</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
-                                <td class="calendar__day calendar__day_future">26</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
-                                <td class="calendar__day calendar__day_future">28</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
-                                <td class="calendar__day calendar__day_future">30</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="calendar__month">
-                    <div class="calendar__title">
-                        Октябрь, 2019
-                    </div>
-                    <table class="calendar__table">
-                        <tbody class="calendar__tbody">
-                            <tr class="calendar__week calendar__week_title">
-                                <td class="calendar__day calendar__day_title">пн</td>
-                                <td class="calendar__day calendar__day_title">вт</td>
-                                <td class="calendar__day calendar__day_title">ср</td>
-                                <td class="calendar__day calendar__day_title">чт</td>
-                                <td class="calendar__day calendar__day_title">пт</td>
-                                <td class="calendar__day calendar__day_title">сб</td>
-                                <td class="calendar__day calendar__day_title">вс</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
-                                <td class="calendar__day calendar__day_past">2</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past">3</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
-                                <td class="calendar__day calendar__day_past">5</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
-                                <td class="calendar__day calendar__day_past">7</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
-                                <td class="calendar__day calendar__day_past">9</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
-                                <td class="calendar__day calendar__day_past">11</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
-                                <td class="calendar__day calendar__day_past">13</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
-                                <td class="calendar__day calendar__day_past">15</td>
-                                <td class="calendar__day calendar__day_past">16</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
-                                <td class="calendar__day calendar__day_past">18</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
-                                <td class="calendar__day calendar__day_past">20</td>
-                                <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
-                                <td class="calendar__day calendar__day_future">22</td>
-                                <td class="calendar__day calendar__day_future">23</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_future">24</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
-                                <td class="calendar__day calendar__day_future">26</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
-                                <td class="calendar__day calendar__day_future">28</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
-                                <td class="calendar__day calendar__day_future">30</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="calendar__month">
-                    <div class="calendar__title">
-                        Октябрь, 2019
-                    </div>
-                    <table class="calendar__table">
-                        <tbody class="calendar__tbody">
-                            <tr class="calendar__week calendar__week_title">
-                                <td class="calendar__day calendar__day_title">пн</td>
-                                <td class="calendar__day calendar__day_title">вт</td>
-                                <td class="calendar__day calendar__day_title">ср</td>
-                                <td class="calendar__day calendar__day_title">чт</td>
-                                <td class="calendar__day calendar__day_title">пт</td>
-                                <td class="calendar__day calendar__day_title">сб</td>
-                                <td class="calendar__day calendar__day_title">вс</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
-                                <td class="calendar__day calendar__day_past">2</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past">3</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
-                                <td class="calendar__day calendar__day_past">5</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
-                                <td class="calendar__day calendar__day_past">7</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
-                                <td class="calendar__day calendar__day_past">9</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
-                                <td class="calendar__day calendar__day_past">11</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
-                                <td class="calendar__day calendar__day_past">13</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
-                                <td class="calendar__day calendar__day_past">15</td>
-                                <td class="calendar__day calendar__day_past">16</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
-                                <td class="calendar__day calendar__day_past">18</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
-                                <td class="calendar__day calendar__day_past">20</td>
-                                <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
-                                <td class="calendar__day calendar__day_future">22</td>
-                                <td class="calendar__day calendar__day_future">23</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_future">24</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
-                                <td class="calendar__day calendar__day_future">26</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
-                                <td class="calendar__day calendar__day_future">28</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
-                                <td class="calendar__day calendar__day_future">30</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="calendar__month">
-                    <div class="calendar__title">
-                        Октябрь, 2019
-                    </div>
-                    <table class="calendar__table">
-                        <tbody class="calendar__tbody">
-                            <tr class="calendar__week calendar__week_title">
-                                <td class="calendar__day calendar__day_title">пн</td>
-                                <td class="calendar__day calendar__day_title">вт</td>
-                                <td class="calendar__day calendar__day_title">ср</td>
-                                <td class="calendar__day calendar__day_title">чт</td>
-                                <td class="calendar__day calendar__day_title">пт</td>
-                                <td class="calendar__day calendar__day_title">сб</td>
-                                <td class="calendar__day calendar__day_title">вс</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
-                                <td class="calendar__day calendar__day_past">2</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past">3</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
-                                <td class="calendar__day calendar__day_past">5</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
-                                <td class="calendar__day calendar__day_past">7</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
-                                <td class="calendar__day calendar__day_past">9</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
-                                <td class="calendar__day calendar__day_past">11</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
-                                <td class="calendar__day calendar__day_past">13</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
-                                <td class="calendar__day calendar__day_past">15</td>
-                                <td class="calendar__day calendar__day_past">16</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
-                                <td class="calendar__day calendar__day_past">18</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
-                                <td class="calendar__day calendar__day_past">20</td>
-                                <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
-                                <td class="calendar__day calendar__day_future">22</td>
-                                <td class="calendar__day calendar__day_future">23</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_future">24</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
-                                <td class="calendar__day calendar__day_future">26</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
-                                <td class="calendar__day calendar__day_future">28</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
-                                <td class="calendar__day calendar__day_future">30</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="calendar__month">
-                    <div class="calendar__title">
-                        Октябрь, 2019
-                    </div>
-                    <table class="calendar__table">
-                        <tbody class="calendar__tbody">
-                            <tr class="calendar__week calendar__week_title">
-                                <td class="calendar__day calendar__day_title">пн</td>
-                                <td class="calendar__day calendar__day_title">вт</td>
-                                <td class="calendar__day calendar__day_title">ср</td>
-                                <td class="calendar__day calendar__day_title">чт</td>
-                                <td class="calendar__day calendar__day_title">пт</td>
-                                <td class="calendar__day calendar__day_title">сб</td>
-                                <td class="calendar__day calendar__day_title">вс</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
-                                <td class="calendar__day calendar__day_past">2</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past">3</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
-                                <td class="calendar__day calendar__day_past">5</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
-                                <td class="calendar__day calendar__day_past">7</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
-                                <td class="calendar__day calendar__day_past">9</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
-                                <td class="calendar__day calendar__day_past">11</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
-                                <td class="calendar__day calendar__day_past">13</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
-                                <td class="calendar__day calendar__day_past">15</td>
-                                <td class="calendar__day calendar__day_past">16</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
-                                <td class="calendar__day calendar__day_past">18</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
-                                <td class="calendar__day calendar__day_past">20</td>
-                                <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
-                                <td class="calendar__day calendar__day_future">22</td>
-                                <td class="calendar__day calendar__day_future">23</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_future">24</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
-                                <td class="calendar__day calendar__day_future">26</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
-                                <td class="calendar__day calendar__day_future">28</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
-                                <td class="calendar__day calendar__day_future">30</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="calendar__month">
-                    <div class="calendar__title">
-                        Октябрь, 2019
-                    </div>
-                    <table class="calendar__table">
-                        <tbody class="calendar__tbody">
-                            <tr class="calendar__week calendar__week_title">
-                                <td class="calendar__day calendar__day_title">пн</td>
-                                <td class="calendar__day calendar__day_title">вт</td>
-                                <td class="calendar__day calendar__day_title">ср</td>
-                                <td class="calendar__day calendar__day_title">чт</td>
-                                <td class="calendar__day calendar__day_title">пт</td>
-                                <td class="calendar__day calendar__day_title">сб</td>
-                                <td class="calendar__day calendar__day_title">вс</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past"></td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
-                                <td class="calendar__day calendar__day_past">2</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past">3</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
-                                <td class="calendar__day calendar__day_past">5</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
-                                <td class="calendar__day calendar__day_past">7</td>
-                                <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
-                                <td class="calendar__day calendar__day_past">9</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
-                                <td class="calendar__day calendar__day_past">11</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
-                                <td class="calendar__day calendar__day_past">13</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
-                                <td class="calendar__day calendar__day_past">15</td>
-                                <td class="calendar__day calendar__day_past">16</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
-                                <td class="calendar__day calendar__day_past">18</td>
-                                <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
-                                <td class="calendar__day calendar__day_past">20</td>
-                                <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
-                                <td class="calendar__day calendar__day_future">22</td>
-                                <td class="calendar__day calendar__day_future">23</td>
-                            </tr>
-                            <tr class="calendar__week">
-                                <td class="calendar__day calendar__day_future">24</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
-                                <td class="calendar__day calendar__day_future">26</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
-                                <td class="calendar__day calendar__day_future">28</td>
-                                <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
-                                <td class="calendar__day calendar__day_future">30</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="lesson__wrapper">
-                <div class="lesson">
-                    <div class="lesson__order">
-                        1 занятие
-                    </div>
-                    <div class="lesson__date">
-                        21 октября в 18:00
-                    </div>
-                    <a class="lesson__nextButton" href="#"><img class="lesson__nextIcon" src="img/nextIcon.svg"></a>
-                </div>
-            </div>
+            <table class="calendar__table">
+                <tbody class="calendar__tbody">
+                <tr class="calendar__week calendar__week_title">
+                    <td class="calendar__day calendar__day_title">пн</td>
+                    <td class="calendar__day calendar__day_title">вт</td>
+                    <td class="calendar__day calendar__day_title">ср</td>
+                    <td class="calendar__day calendar__day_title">чт</td>
+                    <td class="calendar__day calendar__day_title">пт</td>
+                    <td class="calendar__day calendar__day_title">сб</td>
+                    <td class="calendar__day calendar__day_title">вс</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
+                    <td class="calendar__day calendar__day_past">2</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past">3</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
+                    <td class="calendar__day calendar__day_past">5</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
+                    <td class="calendar__day calendar__day_past">7</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
+                    <td class="calendar__day calendar__day_past">9</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
+                    <td class="calendar__day calendar__day_past">11</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
+                    <td class="calendar__day calendar__day_past">13</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
+                    <td class="calendar__day calendar__day_past">15</td>
+                    <td class="calendar__day calendar__day_past">16</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
+                    <td class="calendar__day calendar__day_past">18</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
+                    <td class="calendar__day calendar__day_past">20</td>
+                    <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
+                    <td class="calendar__day calendar__day_future">22</td>
+                    <td class="calendar__day calendar__day_future">23</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_future">24</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
+                    <td class="calendar__day calendar__day_future">26</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
+                    <td class="calendar__day calendar__day_future">28</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
+                    <td class="calendar__day calendar__day_future">30</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
-    </body>
+        <div class="calendar__month">
+            <div class="calendar__title">
+                Октябрь, 2019
+            </div>
+            <table class="calendar__table">
+                <tbody class="calendar__tbody">
+                <tr class="calendar__week calendar__week_title">
+                    <td class="calendar__day calendar__day_title">пн</td>
+                    <td class="calendar__day calendar__day_title">вт</td>
+                    <td class="calendar__day calendar__day_title">ср</td>
+                    <td class="calendar__day calendar__day_title">чт</td>
+                    <td class="calendar__day calendar__day_title">пт</td>
+                    <td class="calendar__day calendar__day_title">сб</td>
+                    <td class="calendar__day calendar__day_title">вс</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
+                    <td class="calendar__day calendar__day_past">2</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past">3</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
+                    <td class="calendar__day calendar__day_past">5</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
+                    <td class="calendar__day calendar__day_past">7</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
+                    <td class="calendar__day calendar__day_past">9</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
+                    <td class="calendar__day calendar__day_past">11</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
+                    <td class="calendar__day calendar__day_past">13</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
+                    <td class="calendar__day calendar__day_past">15</td>
+                    <td class="calendar__day calendar__day_past">16</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
+                    <td class="calendar__day calendar__day_past">18</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
+                    <td class="calendar__day calendar__day_past">20</td>
+                    <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
+                    <td class="calendar__day calendar__day_future">22</td>
+                    <td class="calendar__day calendar__day_future">23</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_future">24</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
+                    <td class="calendar__day calendar__day_future">26</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
+                    <td class="calendar__day calendar__day_future">28</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
+                    <td class="calendar__day calendar__day_future">30</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="calendar__month">
+            <div class="calendar__title">
+                Октябрь, 2019
+            </div>
+            <table class="calendar__table">
+                <tbody class="calendar__tbody">
+                <tr class="calendar__week calendar__week_title">
+                    <td class="calendar__day calendar__day_title">пн</td>
+                    <td class="calendar__day calendar__day_title">вт</td>
+                    <td class="calendar__day calendar__day_title">ср</td>
+                    <td class="calendar__day calendar__day_title">чт</td>
+                    <td class="calendar__day calendar__day_title">пт</td>
+                    <td class="calendar__day calendar__day_title">сб</td>
+                    <td class="calendar__day calendar__day_title">вс</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
+                    <td class="calendar__day calendar__day_past">2</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past">3</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
+                    <td class="calendar__day calendar__day_past">5</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
+                    <td class="calendar__day calendar__day_past">7</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
+                    <td class="calendar__day calendar__day_past">9</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
+                    <td class="calendar__day calendar__day_past">11</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
+                    <td class="calendar__day calendar__day_past">13</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
+                    <td class="calendar__day calendar__day_past">15</td>
+                    <td class="calendar__day calendar__day_past">16</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
+                    <td class="calendar__day calendar__day_past">18</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
+                    <td class="calendar__day calendar__day_past">20</td>
+                    <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
+                    <td class="calendar__day calendar__day_future">22</td>
+                    <td class="calendar__day calendar__day_future">23</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_future">24</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
+                    <td class="calendar__day calendar__day_future">26</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
+                    <td class="calendar__day calendar__day_future">28</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
+                    <td class="calendar__day calendar__day_future">30</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="calendar__month">
+            <div class="calendar__title">
+                Октябрь, 2019
+            </div>
+            <table class="calendar__table">
+                <tbody class="calendar__tbody">
+                <tr class="calendar__week calendar__week_title">
+                    <td class="calendar__day calendar__day_title">пн</td>
+                    <td class="calendar__day calendar__day_title">вт</td>
+                    <td class="calendar__day calendar__day_title">ср</td>
+                    <td class="calendar__day calendar__day_title">чт</td>
+                    <td class="calendar__day calendar__day_title">пт</td>
+                    <td class="calendar__day calendar__day_title">сб</td>
+                    <td class="calendar__day calendar__day_title">вс</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
+                    <td class="calendar__day calendar__day_past">2</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past">3</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
+                    <td class="calendar__day calendar__day_past">5</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
+                    <td class="calendar__day calendar__day_past">7</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
+                    <td class="calendar__day calendar__day_past">9</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
+                    <td class="calendar__day calendar__day_past">11</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
+                    <td class="calendar__day calendar__day_past">13</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
+                    <td class="calendar__day calendar__day_past">15</td>
+                    <td class="calendar__day calendar__day_past">16</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
+                    <td class="calendar__day calendar__day_past">18</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
+                    <td class="calendar__day calendar__day_past">20</td>
+                    <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
+                    <td class="calendar__day calendar__day_future">22</td>
+                    <td class="calendar__day calendar__day_future">23</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_future">24</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
+                    <td class="calendar__day calendar__day_future">26</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
+                    <td class="calendar__day calendar__day_future">28</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
+                    <td class="calendar__day calendar__day_future">30</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="calendar__month">
+            <div class="calendar__title">
+                Октябрь, 2019
+            </div>
+            <table class="calendar__table">
+                <tbody class="calendar__tbody">
+                <tr class="calendar__week calendar__week_title">
+                    <td class="calendar__day calendar__day_title">пн</td>
+                    <td class="calendar__day calendar__day_title">вт</td>
+                    <td class="calendar__day calendar__day_title">ср</td>
+                    <td class="calendar__day calendar__day_title">чт</td>
+                    <td class="calendar__day calendar__day_title">пт</td>
+                    <td class="calendar__day calendar__day_title">сб</td>
+                    <td class="calendar__day calendar__day_title">вс</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
+                    <td class="calendar__day calendar__day_past">2</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past">3</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
+                    <td class="calendar__day calendar__day_past">5</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
+                    <td class="calendar__day calendar__day_past">7</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
+                    <td class="calendar__day calendar__day_past">9</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
+                    <td class="calendar__day calendar__day_past">11</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
+                    <td class="calendar__day calendar__day_past">13</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
+                    <td class="calendar__day calendar__day_past">15</td>
+                    <td class="calendar__day calendar__day_past">16</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
+                    <td class="calendar__day calendar__day_past">18</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
+                    <td class="calendar__day calendar__day_past">20</td>
+                    <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
+                    <td class="calendar__day calendar__day_future">22</td>
+                    <td class="calendar__day calendar__day_future">23</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_future">24</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
+                    <td class="calendar__day calendar__day_future">26</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
+                    <td class="calendar__day calendar__day_future">28</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
+                    <td class="calendar__day calendar__day_future">30</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="calendar__month">
+            <div class="calendar__title">
+                Октябрь, 2019
+            </div>
+            <table class="calendar__table">
+                <tbody class="calendar__tbody">
+                <tr class="calendar__week calendar__week_title">
+                    <td class="calendar__day calendar__day_title">пн</td>
+                    <td class="calendar__day calendar__day_title">вт</td>
+                    <td class="calendar__day calendar__day_title">ср</td>
+                    <td class="calendar__day calendar__day_title">чт</td>
+                    <td class="calendar__day calendar__day_title">пт</td>
+                    <td class="calendar__day calendar__day_title">сб</td>
+                    <td class="calendar__day calendar__day_title">вс</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past"></td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">1</td>
+                    <td class="calendar__day calendar__day_past">2</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past">3</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">4</td>
+                    <td class="calendar__day calendar__day_past">5</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">6</td>
+                    <td class="calendar__day calendar__day_past">7</td>
+                    <td class="calendar__day calendar__day_past  calendar__day_marked">8</td>
+                    <td class="calendar__day calendar__day_past">9</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">10</td>
+                    <td class="calendar__day calendar__day_past">11</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">12</td>
+                    <td class="calendar__day calendar__day_past">13</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">14</td>
+                    <td class="calendar__day calendar__day_past">15</td>
+                    <td class="calendar__day calendar__day_past">16</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_past calendar__day_marked">17</td>
+                    <td class="calendar__day calendar__day_past">18</td>
+                    <td class="calendar__day calendar__day_past calendar__day_marked">19</td>
+                    <td class="calendar__day calendar__day_past">20</td>
+                    <td class="calendar__day calendar__day_present calendar__day_marked">21</td>
+                    <td class="calendar__day calendar__day_future">22</td>
+                    <td class="calendar__day calendar__day_future">23</td>
+                </tr>
+                <tr class="calendar__week">
+                    <td class="calendar__day calendar__day_future">24</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">25</td>
+                    <td class="calendar__day calendar__day_future">26</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">27</td>
+                    <td class="calendar__day calendar__day_future">28</td>
+                    <td class="calendar__day calendar__day_future calendar__day_marked">29</td>
+                    <td class="calendar__day calendar__day_future">30</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="lesson__wrapper">
+        <div class="lesson">
+            <div class="lesson__order">
+                1 занятие
+            </div>
+            <div class="lesson__date">
+                21 октября в 18:00
+            </div>
+            <a class="lesson__nextButton" href="#"><img class="lesson__nextIcon" src="img/nextIcon.svg"></a>
+        </div>
+    </div>
+</div>
+</body>
 
 </html>

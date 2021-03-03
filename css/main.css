@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+:root {
+    --primary-color: #000000;
+    --secondary-color: #8F8E94;
+    --secondary-dark-color: #999999;
+    --highlight-color: #007AFF;
+    --white-color: #ffffff;
+    --next-button-color: #E24B5E;
+}
+
 @font-face {
     font-family: "SFUIDisplay-Bold";
     src: url("../fonts/SF_Pro/SFUIDisplay-Bold.ttf") format("TrueType");
@@ -45,13 +54,13 @@ body * {
 }
 
 .backButton__sectionName {
-    font-family: "SFUIText-Medium";
+    font-family: "SFUIText-Medium", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 25px;
     margin-left: 6px;
-    color: #007AFF;
+    color: var(--highlight-color);
     text-decoration: none;
 }
 
@@ -80,18 +89,18 @@ body * {
     position: relative;
     width: 640px;
     height: 100vh;
-    background-color: #fff;
+    background-color: var(--white-color);
     margin: auto;
 }
 
 .calendar__title {
-    font-family: "SFUIDisplay-Bold";
+    font-family: "SFUIDisplay-Bold", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 25px;
     letter-spacing: 0.35px;
-    color: #000000;
+    color: var(--primary-color);
     margin-bottom: 15px;
 }
 
@@ -132,7 +141,7 @@ body * {
     -ms-flex-pack: center;
     justify-content: center;
     position: relative;
-    font-family: "SFUIText-Regular";
+    font-family: "SFUIText-Regular", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -145,15 +154,15 @@ body * {
 }
 
 .calendar__day_past {
-    color: #8F8E94;
+    color: var(--secondary-color);
 }
 
 .calendar__day_past::before {
-    color: #CCCCCC;
+    color: var(--secondary-color);
 }
 
 .calendar__day_present {
-    color: #FFFFFF;
+    color: var(--white-color);
     background: url('../img/markedDay.svg') center center no-repeat;
     background-size: auto;
 }
@@ -163,11 +172,11 @@ body * {
 }
 
 .calendar__day_future {
-    color: #000000;
+    color: var(--primary-color);
 }
 
 .calendar__day_future::before {
-    color: #007AFF;
+    color: var(--highlight-color);
 }
 
 .calendar__day_marked::before {
@@ -179,13 +188,13 @@ body * {
 }
 
 .calendar__day_title {
-    font-family: "SFUIText-Regular";
+    font-family: "SFUIText-Regular", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.12px;
-    color: #000000;
+    color: var(--primary-color);
 }
 
 .lesson {
@@ -210,24 +219,24 @@ body * {
 }
 
 .lesson__order {
-    font-family: "SFUIText-Medium";
+    font-family: "SFUIText-Medium", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
     line-height: 20px;
     letter-spacing: -0.24px;
-    color: #000000;
+    color: var(--primary-color);
     margin-bottom: 3px;
 }
 
 .lesson__date {
-    font-family: "SFUIText-Regular";
+    font-family: "SFUIText-Regular", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: -0.24px;
-    color: #999999;
+    color: var(--secondary-dark-color);
 }
 
 .lesson__nextButton {
@@ -242,7 +251,7 @@ body * {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-color: #E24B5E;
+    background-color: var(--next-button-color);
     border-radius: 50%;
     width: 22px;
     height: 22px;
